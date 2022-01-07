@@ -17,7 +17,6 @@
   grid-template-areas: "c s";
 
   gap: 100px;
-  align-items: center;
   position: relative;
 }
 
