@@ -65,6 +65,7 @@ img {
   .subtitulo{
     font-size: 3rem;
     text-transform: capitalize;
-    max-width: initial;
+    /* !important define prioridade*/
+    max-width: initial !important;
   }
 }
