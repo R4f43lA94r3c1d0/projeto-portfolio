@@ -2,8 +2,9 @@
           IMPORTS
 ****************************/
 @import url(./global.css);
-@import url(./header.css);
+@import url(./cabecalho.css);
 @import url(./introducao.css);
+@import url(./experiencia.css);
 
 /****************************
           STYLE CSS

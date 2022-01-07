@@ -52,3 +52,11 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.subtitulo{
+  font-size: 8rem;
+  line-height: 1;
+  word-break: break-all;
+  text-transform: uppercase;
+  max-width: 4ch; /*Quando estiver bem espaçado, quebrará em 4 caracteres*/
+}
