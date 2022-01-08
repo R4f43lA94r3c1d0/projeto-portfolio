@@ -49,10 +49,11 @@ ul {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
-.subtitulo{
+.subtitulo {
   font-size: 8rem;
   line-height: 1;
   word-break: break-all;
@@ -60,8 +61,12 @@ img {
   max-width: 4ch; /*Quando estiver bem espaçado, quebrará em 4 caracteres*/
 }
 
-@media (max-width: 800px){
-  .subtitulo{
+/****************************
+        RESPONSIVO
+****************************/
+
+@media (max-width: 800px) {
+  .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
     /* !important define prioridade*/

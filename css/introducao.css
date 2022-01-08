@@ -37,6 +37,10 @@
   color: #525252;
 }
 
+/****************************
+        RESPONSIVO
+****************************/
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
