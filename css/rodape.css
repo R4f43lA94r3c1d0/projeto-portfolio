@@ -50,6 +50,16 @@
   }
 
   .footer-contato li{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px){
+  .footer-contato li{
+    font-size: 1.1rem;
+  }
+
+  .footer-texto{
+    font-size: 1.1rem;
   }
 }
