@@ -1,6 +1,28 @@
 /****************************
           FORMAÇÃO
 ****************************/
+a{
+  text-decoration: none;
+  position: relative;
+  color: #6200C3;
+  display: inline-block;
+}
+
+a::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #6200C3;
+  margin-top: 2px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
 .formacao {
   background: #141414;
   color: white;
